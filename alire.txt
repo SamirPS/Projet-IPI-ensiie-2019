@@ -1,5 +1,17 @@
 Sujet disponible ici copier coller du site : http://web4.ensiie.fr/~guillaume.burel/cours/IPI/projet_2019.html
 
+
+!!! script d'exemple a utiliser dans le dossier script :
+
+      -fact renvoie le factorielle d'un nombre > 0 et renvoie 0 si on depasse la limite des entiers et boucle si on fait            fact 0 ou fact nombre negatif
+      
+      -Helloworld et Helloworlddiag affiche Hello World !
+      
+      -Lessmore est le jeu du plus ou moins ( on donne la reponse au debut pour verifier si nos programmes fonctionne bien)
+      
+      -sieve il s'agit du crible d'Ératosthène qui affiche les nombres premiers jusqu'à 79.
+      
+      
 Contexte
 Le but de ce projet est d'implanter un interpréteur et un débogueur pour un langage de programmation en deux dimensions appelé prog2d.
 
