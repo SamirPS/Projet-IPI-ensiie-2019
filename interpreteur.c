@@ -17,6 +17,7 @@
 
 int main(int argc,char* argv[])
 {
+  srand(time(NULL));
   FILE *fichier=NULL;
   fichier=fopen(argv[1],"r+");
     /* Si le nombre d'argument est plus petit que 1 on quitte le programme et affiche une erreur comme ca on evite la fuite memoire   */
