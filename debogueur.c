@@ -93,6 +93,7 @@ void afficher(Matrice grille,int ligne,int colonne,int i,int j,Pile *maPile){
 
 int main(int argc,char* argv[])
 {
+  srand(time(NULL));
   FILE *fichier=NULL;
   fichier=fopen(argv[1],"r+");
 
