@@ -256,7 +256,7 @@ void lancement(int colonne,int ligne,Matrice grille,int *i,int *j,Pile *maPile,P
 	}
        else if(grille[*i][*j]=='?')
 	{
-	  srand(time(NULL));
+	  
 	  *sens=rand()%8;
 	}
       else if(grille[*i][*j]=='\'')
@@ -592,7 +592,7 @@ void step(int colonne,int ligne,Matrice grille , int *i,int *j,int n,Pile* maPil
 	}
        else if(grille[*i][*j]=='?')
 	{
-	  srand(time(NULL));
+	  
 	  *sens=rand()%8;
 	}
       else if(grille[*i][*j]=='\'')
